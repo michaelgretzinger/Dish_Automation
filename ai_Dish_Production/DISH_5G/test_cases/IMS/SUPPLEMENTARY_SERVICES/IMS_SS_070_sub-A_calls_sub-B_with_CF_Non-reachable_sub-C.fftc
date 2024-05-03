@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="9.1.0.202208171942">
+<testCase version="9.4.1.202310041549">
     <general>
         <documentation>IMS_SS_070 Dish sub A calls Dish sub B with Call Forwarding Non-reachable to Dish sub C.</documentation>
         <tags>Automation_Next_Gen_Framework_v2, IMS_SS_070, Special_Supi</tags>
@@ -747,7 +747,7 @@ Expected Result:
                     </nestedSteps>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="fb982ad1-d0e8-4d1c-8655-cebbafe1e7f7" action="comment" useFieldsInCommand="false">
+                <item guid="fb982ad1-d0e8-4d1c-8655-cebbafe1e7f7" action="comment" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>IF test failing, do RADCOM capture</body>
                     </command>

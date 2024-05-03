@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testCase version="9.1.1.202209201235">
+<testCase version="9.4.1.202310041549">
     <general>
         <documentation>5G_DC_124 Verify UE can ping any network.</documentation>
         <tags>5G_DC_124, Automation_Next_Gen_Framework</tags>
@@ -765,7 +765,7 @@ Expected Result/Post Condition:
                     </nestedSteps>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="720c2319-3c5b-4d2d-a5d4-67ac6746dc02" action="comment" useFieldsInCommand="false">
+                <item guid="720c2319-3c5b-4d2d-a5d4-67ac6746dc02" action="comment" skip="true" useFieldsInCommand="false">
                     <command>
                         <body>IF test failing, do RADCOM capture</body>
                     </command>
